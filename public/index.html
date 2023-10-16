@@ -1,43 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta
+    name="description"
+    content="Web site created using create-react-app"
+  />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!--
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+  -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+</head>
+<body>
+  <div id="header_tags"></div>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <section class="carousel">
+    <div id="carousel"></div>
+  </section>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <section class="main">
+    <div class="wrap_left">
+      <div class="post post_1">
+        <div class="wrap_img_and_name">
+          <img class="post_img" src="https://resizer.mail.ru/p/68786a12-bb0b-51c1-b85c-3a7675ed6164/AQAKo9uAd-qng6GXd2pBOJfS-278FbV1Hj4O_34rqH8u3jWgyIXMXC7hpvqqSlQUEXgBduvhBnH2pUlXhlSYjzrd6mo.jpg" alt="">
+          <div class="post_name">
+            <h1>Название статьи номер 1</h1>
+          </div>
+        </div>
+        <div class="post_text">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+        </div>
+        <div class="post_btn">
+          Читать 
+        </div>
+      </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+      <div class="post post_2">
+        <div class="wrap_img_and_name">
+          <img class="post_img" src="https://images.techinsider.ru/upload/img_cache/c56/c56faa68f032d82f5534ddc600492e19_ce_1920x1024x0x28_cropped_666x444.jpg" alt="">
+          <div class="post_name">
+            <h1>Название статьи номер 2</h1>
+          </div>
+        </div>
+        <div class="post_text">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+        </div>
+        <div class="post_btn">
+          Читать 
+        </div>
+      </div>
+
+      <div class="post post_3">
+        <div class="wrap_img_and_name">
+          <img class="post_img" src="https://park-inno.ru/wp-content/uploads/2016/07/opticheskie-illyuzii-scaled.jpg" alt="">
+          <div class="post_name">
+            <h1>Название статьи номер 3</h1>
+          </div>
+        </div>
+        <div class="post_text">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+        </div>
+        <div class="post_btn">
+          Читать 
+        </div>
+      </div>
+
+      <div class="post post_4">
+        <div class="wrap_img_and_name">
+          <img class="post_img" src="https://cdn.fishki.net/upload/post/2016/09/28/2088149/tn/1-2276c1e004179d53d268ac94775af823.jpg" alt="">
+          <div class="post_name">
+            <h1>Название статьи номер 4</h1>
+          </div>
+        </div>
+        <div class="post_text">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+        </div>
+        <div class="post_btn">
+          Читать 
+        </div>
+      </div>
+
+      <div class="post post_5">
+        <div class="wrap_img_and_name">
+          <img class="post_img" src="https://cdn.lifehacker.ru/wp-content/uploads/2018/12/15395_0e2e84a82d94dc94d5749d44d4c6c73b_1546072394-e1547018211714.png" alt="">
+          <div class="post_name">
+            <h1>Название статьи номер 5</h1>
+          </div>
+        </div>
+        <div class="post_text">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+        </div>
+        <div class="post_btn">
+          Читать 
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">      
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 1</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 2</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 3</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 4</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 5</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 6</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 7</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 8</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+      <div class="sidebar_inner">
+        <div class="sidebar_title"><p>Название новости номер 9</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="wrap_footer_tags">
+      <h1 class="footer_tags_title">Тэги</h1>
+      <div id="footer_list">
+        
+      </div>
+    </div>
+
+    <div class="wpar_contacts">
+      <div class="wrap_numder">
+        Телефон:
+        <div class="number">
+          8-800-555-35-35
+        </div>
+      </div>
+      <div class="wrap_adress">
+        Адресс:
+        <div class="adress">
+          г.Караганда, ул.Пушкина, д.12
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
