@@ -1,11 +1,168 @@
 import './App.css';
-import { Carousel } from "./Carousel";
+import { Carousel } from "./Components/Carousel";
+import Footerlist from "./Components/FooterList";
+import HeaderTags from "./Components/HeaderTags";
+import { Drag_and_drop } from "./Components/Drag_and_drop";
 
 function App() {
   return (
-    <div className="App">
-      <Carousel />
+  <>
+    <div id="header_tags">
+      <HeaderTags />
     </div>
+
+    <section class="carousel">
+      <div id="carousel">
+        <Carousel />
+      </div>
+    </section>
+
+    <section class="drag_and_drop">
+      <Drag_and_drop />
+    </section>
+
+    <section class="main">
+      <div class="wrap_left">
+        <div class="post post_1">
+          <div class="wrap_img_and_name">
+            <img class="post_img" src="https://resizer.mail.ru/p/68786a12-bb0b-51c1-b85c-3a7675ed6164/AQAKo9uAd-qng6GXd2pBOJfS-278FbV1Hj4O_34rqH8u3jWgyIXMXC7hpvqqSlQUEXgBduvhBnH2pUlXhlSYjzrd6mo.jpg" alt="" />
+            <div class="post_name">
+              <h1>Название статьи номер 1</h1>
+            </div>
+          </div>
+          <div class="post_text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+          </div>
+          <div class="post_btn">
+            Читать 
+          </div>
+        </div>
+
+        <div class="post post_2">
+          <div class="wrap_img_and_name">
+            <img class="post_img" src="https://images.techinsider.ru/upload/img_cache/c56/c56faa68f032d82f5534ddc600492e19_ce_1920x1024x0x28_cropped_666x444.jpg" alt="" />
+            <div class="post_name">
+              <h1>Название статьи номер 2</h1>
+            </div>
+          </div>
+          <div class="post_text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+          </div>
+          <div class="post_btn">
+            Читать 
+          </div>
+        </div>
+
+        <div class="post post_3">
+          <div class="wrap_img_and_name">
+            <img class="post_img" src="https://park-inno.ru/wp-content/uploads/2016/07/opticheskie-illyuzii-scaled.jpg" alt="" />
+            <div class="post_name">
+              <h1>Название статьи номер 3</h1>
+            </div>
+          </div>
+          <div class="post_text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+          </div>
+          <div class="post_btn">
+            Читать 
+          </div>
+        </div>
+
+        <div class="post post_4">
+          <div class="wrap_img_and_name">
+            <img class="post_img" src="https://cdn.fishki.net/upload/post/2016/09/28/2088149/tn/1-2276c1e004179d53d268ac94775af823.jpg" alt="" />
+            <div class="post_name">
+              <h1>Название статьи номер 4</h1>
+            </div>
+          </div>
+          <div class="post_text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+          </div>
+          <div class="post_btn">
+            Читать 
+          </div>
+        </div>
+
+        <div class="post post_5">
+          <div class="wrap_img_and_name">
+            <img class="post_img" src="https://cdn.lifehacker.ru/wp-content/uploads/2018/12/15395_0e2e84a82d94dc94d5749d44d4c6c73b_1546072394-e1547018211714.png" alt="" />
+            <div class="post_name">
+              <h1>Название статьи номер 5</h1>
+            </div>
+          </div>
+          <div class="post_text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, reprehenderit a porro exercitationem aperiam nisi earum animi esse delectus placeat unde sunt vitae architecto magni repellendus enim. Beatae quibusdam vel amet pariatur dignissimos architecto doloribus corporis non minima possimus dolor in ducimus asperiores, earum molestiae hic illo voluptatibus et aut quos? Quidem laboriosam quae velit non aperiam rem dicta ratione repellendus? Sit laboriosam in non aliquid ea eius repellat ut? Officia eius reiciendis nisi deserunt repellendus, maiores blanditiis. Non totam natus repudiandae sed ex labore tempora iure velit amet, reprehenderit eligendi dicta perferendis sunt delectus maxime. Sapiente labore fuga possimus.</p>
+          </div>
+          <div class="post_btn">
+            Читать 
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">      
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 1</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 2</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 3</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 4</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 5</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 6</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 7</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 8</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+        <div class="sidebar_inner">
+          <div class="sidebar_title"><p>Название новости номер 9</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum odio omnis distinctio consequatur doloremque incidunt architecto ipsam minima similique.</div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="wrap_footer_tags">
+        <h1 class="footer_tags_title">Тэги</h1>
+        <div id="footer_list">
+          <Footerlist />
+        </div>
+      </div>
+
+      <div class="wpar_contacts">
+        <div class="wrap_numder">
+          Телефон:
+          <div class="number">
+            8-800-555-35-35
+          </div>
+        </div>
+        <div class="wrap_adress">
+          Адресс:
+          <div class="adress">
+            г.Караганда, ул.Пушкина, д.12
+          </div>
+        </div>
+      </div>
+    </section>
+  </>
+
   );
 }
 
